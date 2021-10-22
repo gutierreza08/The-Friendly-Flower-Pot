@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">     
+    </head>
+    <body>
+
+        <h1>Welcome to The Friendly Flowerpot</h1>
+        <div class="button1"> <a href="index.html"> <img src="images/nav_home.gif"> </a></div>
+
+        <div class="button2"> <a href="aboutus.html"> <img src="images/nav_about.gif"> </a> </div>
+
+        <div class="button3"> <a href="contactus.html"> <img src="images/nav_contact.gif"> </a> </div>
+
+        <div class="button4"> <a href="gallery.html"> <img src="images/nav_gallery.gif"> </a> </div>
+
+        <div class="button5"> <a href="links.html"> <img src="images/nav_links.gif"> </a> </div>
+
+        <div class="button6"> <a href="ordering.html"> <img src="images/nav_ordering.gif"> </a> </div>
+
+        <br>
+        <br>
+
+<form>
+    <lable for="name"><strong>Name:</strong></lable>
+        <br>
+        
+    <input id="name" type="text" name="name" required>
+        <br>
+        <br>
+
+    <lable for="email"><strong>Email Address:</strong></lable>
+        <br>
+    <input id="email" type="text" name="email" required>
+        <br>
+        <br>
+
+    <lable for="shipping"><strong>Shipping Address:</strong></lable>
+        <br>
+
+    <lable for="street">Street Address:</lable>
+    <input id="street" type="text" name="street" required>
+        <br>
+        <br>
+
+    <lable for="city">City:</lable>
+    <input id="city" type="text" name="city" required>
+        <br>
+        <br>
+
+    <lable for="state">State:</lable>
+    <input id="state" type="text" name="state" required>
+        <br>
+        <br>
+
+    <lable for="zip">Zip:</lable>
+    <input id="zip" type="text" name="zip" required>
+        <br>
+        <br>
+
+    <lable for="pot"><strong>Pot:</strong></lable>
+        <br>
+
+    <input id="pot" type="text" list="pot-choices" name="pot" required>
+        <datalist id="pot-choices">
+            <option value="Red Earth"></option>
+            <option value="Night Sky"></option>
+            <option value="Country Planter"></option>
+            <option value="Chinese Clay"></option>
+            <option value="Italian Terracotta"></option>
+            <option value="Carved Terracotta"></option>
+            <option value="Classic Clay"></option>
+        </datalist>
+        <br>
+        <br>
+
+    <label for="quantity"><strong>Quantity:</strong></label>
+        <br>
+
+    <input id="quantity" name="quantity" type="text" required>
+            <br>
+            <br>
+
+    <span><strong>Gardening Skillset:</strong></span>
+            <br>
+
+    <input id="amateur" type="radio" name="answer" value="amateur" required>
+    <label for="amateur">Amateur</label>
+
+            <br>
+    <input id="hobbyist" type="radio" name="answer" value="hobbyist" required>
+    <lable for="hobbyist">Hobbyist</lable>
+            <br>
+
+    <input id="professional" type="radio" name="answer" value="professional" required>
+    <lable for="professional">Professional</lable>
+            <br>
+            <br>
+
+        <section class="updates">
+    <label><strong>Would you like to receive updates?</strong></label>
+            <br>
+
+    <input type="checkbox" name="updates" id="email-newsletter" value="" required>
+    <label for="email-newsletter">Email Newsletter</label>
+            <br>
+
+    <input type="checkbox" name="updates" id="catalog" value="" required>
+    <label for="catalog">Catalog</label>
+            <br>
+
+    <input type="checkbox" name="updates" id="both" value="" required>
+    <label for="both">Both</label>
+        </section>
+            <br>
+            <br>
+
+    <input type="submit" value="Submit">
+</form>
+
+    </body>
+</html>
